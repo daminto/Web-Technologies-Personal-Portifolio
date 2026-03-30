@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Macdonald Tanatswa Pazuwa | Portfolio</title>
+
+  <!-- Boxicons for icons -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <!-- Google Fonts: distinctive pairing -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+
+  <!-- ========================
+       HEADER / NAV
+  ========================= -->
+  <header class="header" role="banner">
+    <a href="#home" class="logo" aria-label="Macdonald Pazuwa Home">Macdonald Tanatswa Pazuwa</a>
+    <button class="menu-btn" id="menu-icon" aria-label="Toggle navigation menu" aria-expanded="false">
+      <i class='bx bx-menu' aria-hidden="true"></i>
+    </button>
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- ========================
+       HOME / HERO SECTION
+  ========================= -->
+  <section class="home" id="home" aria-label="Hero section">
+    <div class="home-img">
+      <!-- Professional avatar / photo -->
+      <img src="Assets/Profile.jpg" alt="Portrait of Macdonald Tanatswa Pazuwa" loading="eager">
+    </div>
+
+    <div class="home-content">
+      <p class="greeting">👋 Hi there, I'm</p>
+      <h1>Macdonald<br><span>Tanatswa Pazuwa</span></h1>
+
+      <!-- Tagline with typed animation -->
+      <h2 class="tagline">I'm a <span class="multiple-text" aria-live="polite"></span></h2>
+
+      <!-- Brief introduction (2-3 sentences) -->
+      <p class="intro">
+        Information Security & Assurance student at the Harare Institute of Technology,
+        passionate about building secure, elegant digital experiences. I craft clean
+        code and solve real problems — helping businesses go digital the right way.
+      </p>
+
+      <!-- Social media links -->
+      <div class="social-media" aria-label="Social media links">
+        <a href="https://www.linkedin.com/in/macdonald-tanatswa-pazuwa" target="_blank" rel="noopener" aria-label="LinkedIn profile"><i class='bx bxl-linkedin' aria-hidden="true"></i></a>
+        <a href="https://github.com/Daminto" target="_blank" rel="noopener" aria-label="GitHub profile"><i class='bx bxl-github' aria-hidden="true"></i></a>
+        <a href="https://www.facebook.com/macdonald.tanatswa.pazuwa" target="_blank" rel="noopener" aria-label="Facebook profile"><i class='bx bxl-facebook' aria-hidden="true"></i></a>
+        <a href="https://www.instagram.com/tana_tsw.a" target="_blank" rel="noopener" aria-label="Instagram profile"><i class='bx bxl-instagram' aria-hidden="true"></i></a>
+      </div>
+
+      <!-- Call-to-action buttons -->
+      <div class="cta-group">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-outline">Hire Me</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================
+       ABOUT SECTION
+  ========================= -->
+  <section class="about" id="about" aria-label="About me">
+    <div class="about-img">
+      <img src="Assets/Profile.jpg" alt="Macdonald Tanatswa Pazuwa" loading="lazy">
+    </div>
+
+    <div class="about-content">
+      <h2 class="heading">About <span>Me</span></h2>
+      <h3>Web–Developer &amp;  Information Security &amp; Assurance Student</h3>
+
+      <!-- Detailed biography -->
+      <p>
+        I'm Macdonald Tanatswa Pazuwa, an Information Security and Assurance student at the
+        <strong>Harare Institute of Technology (HIT)</strong> in Zimbabwe. My academic journey
+        is driven by a genuine curiosity about how systems fail — and how to build them stronger.
+      </p>
+      <p>
+        I specialise in network security, ethical hacking, and secure software design. I enjoy
+        turning theoretical concepts into practical tools — clean code and disciplined logic are
+        core to everything I build. Outside academics, music is my sanctuary: whether listening
+        to afrobeats or fingerpicking a guitar, sound shapes how I think and approach problems creatively.
+      </p>
+
+      <!-- Education & Experience Timeline -->
+      <div class="timeline" aria-label="Education and experience timeline">
+        <h3 class="timeline-title">Education &amp; Experience</h3>
+
+        <div class="timeline-item">
+          <div class="timeline-dot" aria-hidden="true"></div>
+          <div class="timeline-body">
+            <span class="timeline-year">2025 – Present</span>
+            <h4>BSc Information Security &amp; Assurance</h4>
+            <p>Harare Institute of Technology (HIT), Zimbabwe</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot" aria-hidden="true"></div>
+          <div class="timeline-body">
+            <span class="timeline-year">2023 – 2024</span>
+            <h4>A-Level Studies</h4>
+            <p>Mathematics, Geography &amp; Computer Science</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot" aria-hidden="true"></div>
+          <div class="timeline-body">
+            <span class="timeline-year">2022</span>
+            <h4>O-Level Certificate</h4>
+            <p>9 subjects passed</p>
+          </div>
+        </div>
+      </div>
+
+      <a href="#skills" class="btn btn-primary">See My Skills</a>
+    </div>
+  </section>
+
+  <!-- ========================
+       SKILLS SECTION
+  ========================= -->
+  <section class="skills-section" id="skills" aria-label="Skills">
+    <h2 class="heading">My <span>Skills</span></h2>
+    <p class="section-subtitle">Technologies and tools I work with</p>
+
+    <div class="skills-grid">
+
+      <!-- Skill bars with visual indicators -->
+      <article class="skill-card">
+        <div class="skill-icon"><i class='bx bx-music' aria-hidden="true"></i></div>
+        <div class="skill-info">
+          <div class="skill-label">
+            <span>Music Sight Reading</span>
+            <span>100%</span>
+          </div>
+          <div class="skill-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+            <div class="skill-fill" style="--skill-pct: 100%"></div>
+          </div>
+        </div>
+      </article>
+
+      <article class="skill-card">
+        <div class="skill-icon"><i class='bx bxl-html5' aria-hidden="true"></i></div>
+        <div class="skill-info">
+          <div class="skill-label">
+            <span>HTML5</span>
+            <span>65%</span>
+          </div>
+          <div class="skill-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+            <div class="skill-fill" style="--skill-pct: 65%"></div>
+          </div>
+        </div>
+      </article>
+
+      <article class="skill-card">
+        <div class="skill-icon"><i class='bx bxl-css3' aria-hidden="true"></i></div>
+        <div class="skill-info">
+          <div class="skill-label">
+            <span>CSS3</span>
+            <span>55%</span>
+          </div>
+          <div class="skill-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">
+            <div class="skill-fill" style="--skill-pct: 55%"></div>
+          </div>
+        </div>
+      </article>
+
+      <article class="skill-card">
+        <div class="skill-icon"><i class='bx bxl-javascript' aria-hidden="true"></i></div>
+        <div class="skill-info">
+          <div class="skill-label">
+            <span>JavaScript</span>
+            <span>45%</span>
+          </div>
+          <div class="skill-bar" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100">
+            <div class="skill-fill" style="--skill-pct: 45%"></div>
+          </div>
+        </div>
+      </article>
+
+      <article class="skill-card">
+        <div class="skill-icon"><i class='bx bxl-github' aria-hidden="true"></i></div>
+        <div class="skill-info">
+          <div class="skill-label">
+            <span>Git &amp; GitHub</span>
+            <span>50%</span>
+          </div>
+          <div class="skill-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+            <div class="skill-fill" style="--skill-pct: 50%"></div>
+          </div>
+        </div>
+      </article>
+
+      <article class="skill-card">
+        <div class="skill-icon"><i class='bx bx-shield-alt-2' aria-hidden="true"></i></div>
+        <div class="skill-info">
+          <div class="skill-label">
+            <span>Network Security</span>
+            <span>40%</span>
+          </div>
+          <div class="skill-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
+            <div class="skill-fill" style="--skill-pct: 40%"></div>
+          </div>
+        </div>
+      </article>
+
+      <article class="skill-card">
+        <div class="skill-icon"><i class='bx bx-terminal' aria-hidden="true"></i></div>
+        <div class="skill-info">
+          <div class="skill-label">
+            <span>Linux / CLI</span>
+            <span>42%</span>
+          </div>
+          <div class="skill-bar" role="progressbar" aria-valuenow="42" aria-valuemin="0" aria-valuemax="100">
+            <div class="skill-fill" style="--skill-pct: 42%"></div>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ========================
+       PROJECTS SECTION
+  ========================= -->
+  <section class="projects" id="projects" aria-label="Projects">
+    <h2 class="heading">My <span>Projects</span></h2>
+    <p class="section-subtitle">A selection of things I've built</p>
+
+    <!-- CSS Grid layout for project cards -->
+    <div class="projects-grid">
+
+      <!-- Project 1 -->
+      <article class="project-card">
+        <div class="project-img">
+          <img src="Assets/calc-preview.png" alt="Web Based Calculator screenshot" loading="lazy"
+               onerror="this.style.display='none'; this.parentElement.classList.add('no-img')">
+          <div class="project-overlay">
+            <i class='bx bx-code-block' aria-hidden="true"></i>
+          </div>
+        </div>
+        <div class="project-body">
+          <span class="project-tag">HTML · CSS · JS</span>
+          <h3>Web-Based Calculator</h3>
+          <p>An interactive browser calculator supporting standard and advanced operations.
+             Built to practise clean logic, responsive design, and real-time DOM manipulation.</p>
+          <div class="project-links">
+            <a href="https://github.com" target="_blank" rel="noopener" class="btn btn-sm" aria-label="View Calculator on GitHub">
+              <i class='bx bxl-github' aria-hidden="true"></i> GitHub
+            </a>
+            <a href="#" target="_blank" rel="noopener" class="btn btn-sm btn-outline" aria-label="Live demo of Calculator">
+              <i class='bx bx-link-external' aria-hidden="true"></i> Live Demo
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Project 2 -->
+      <article class="project-card">
+        <div class="project-img">
+          <img src="Assets/portal-preview.png" alt="School Portal screenshot" loading="lazy"
+               onerror="this.style.display='none'; this.parentElement.classList.add('no-img')">
+          <div class="project-overlay">
+            <i class='bx bx-desktop' aria-hidden="true"></i>
+          </div>
+        </div>
+        <div class="project-body">
+          <span class="project-tag">HTML · CSS · JS · Node.js</span>
+          <h3>Web-Based School Portal</h3>
+          <p>A student management system for tertiary institutions with modules for course enrollment,
+             grade tracking, assignment submission, and announcements. Includes user authentication.</p>
+          <div class="project-links">
+            <a href="https://github.com" target="_blank" rel="noopener" class="btn btn-sm" aria-label="View School Portal on GitHub">
+              <i class='bx bxl-github' aria-hidden="true"></i> GitHub
+            </a>
+            <a href="#" target="_blank" rel="noopener" class="btn btn-sm btn-outline" aria-label="Live demo of School Portal">
+              <i class='bx bx-link-external' aria-hidden="true"></i> Live Demo
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Project 3 -->
+      <article class="project-card">
+        <div class="project-img">
+          <img src="Assets/portfolio-preview.png" alt="Portfolio Website screenshot" loading="lazy"
+               onerror="this.style.display='none'; this.parentElement.classList.add('no-img')">
+          <div class="project-overlay">
+            <i class='bx bx-user' aria-hidden="true"></i>
+          </div>
+        </div>
+        <div class="project-body">
+          <span class="project-tag">HTML · CSS · JavaScript</span>
+          <h3>Personal Portfolio Website</h3>
+          <p>This portfolio — a fully responsive, multi-section website showcasing my skills,
+             projects, and contact details. Built from scratch with semantic HTML5, custom CSS,
+             and vanilla JavaScript.</p>
+          <div class="project-links">
+            <a href="https://github.com" target="_blank" rel="noopener" class="btn btn-sm" aria-label="View Portfolio on GitHub">
+              <i class='bx bxl-github' aria-hidden="true"></i> GitHub
+            </a>
+            <a href="#" target="_blank" rel="noopener" class="btn btn-sm btn-outline" aria-label="Live demo of Portfolio">
+              <i class='bx bx-link-external' aria-hidden="true"></i> Live Demo
+            </a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ========================
+       CONTACT SECTION
+  ========================= -->
+  <section class="contact" id="contact" aria-label="Contact me">
+    <h2 class="heading">Contact <span>Me</span></h2>
+    <p class="section-subtitle">Got a project in mind? Let's talk.</p>
+
+    <!-- Email link -->
+    <p class="contact-email">
+      <i class='bx bx-envelope' aria-hidden="true"></i>
+      <a href="mailto:macdonaldpazuwa@gmail.com">macdonaldpazuwa@gmail.com</a>
+    </p>
+
+    <!-- Contact form with HTML5 validation -->
+    <form class="contact-form" id="contactForm" action="https://formsubmit.co/macdonaldpazuwa@gmail.com" method="POST" novalidate aria-label="Contact form">
+
+      <!-- FormSubmit.co config: no captcha, redirect back to the page -->
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_next" value="">
+      <input type="hidden" name="_subject" value="New Portfolio Contact Message">
+
+      <div class="input-box">
+        <!-- Full Name -->
+        <div class="form-group">
+          <label for="fullName">Full Name <span aria-hidden="true">*</span></label>
+          <input
+            type="text"
+            id="fullName"
+            name="fullName"
+            placeholder="Your full name"
+            required
+            minlength="2"
+            autocomplete="name"
+            aria-required="true"
+          >
+          <span class="error-msg" id="nameError" role="alert" aria-live="polite"></span>
+        </div>
+
+        <!-- Email -->
+        <div class="form-group">
+          <label for="emailAddress">Email Address <span aria-hidden="true">*</span></label>
+          <input
+            type="email"
+            id="emailAddress"
+            name="email"
+            placeholder="your@email.com"
+            required
+            autocomplete="email"
+            aria-required="true"
+          >
+          <span class="error-msg" id="emailError" role="alert" aria-live="polite"></span>
+        </div>
+      </div>
+
+      <div class="input-box">
+        <!-- Phone -->
+        <div class="form-group">
+          <label for="phoneNumber">Phone Number <span aria-hidden="true">*</span></label>
+          <input
+            type="tel"
+            id="phoneNumber"
+            name="phone"
+            placeholder="+263 77 000 0000"
+            pattern="[\+]?[0-9\s\-]{7,15}"
+            required
+            aria-required="true"
+            autocomplete="tel"
+          >
+          <span class="error-msg" id="phoneError" role="alert" aria-live="polite"></span>
+        </div>
+
+        <!-- Subject -->
+        <div class="form-group">
+          <label for="emailSubject">Subject <span aria-hidden="true">*</span></label>
+          <input
+            type="text"
+            id="emailSubject"
+            name="subject"
+            placeholder="What's this about?"
+            required
+            minlength="3"
+            aria-required="true"
+          >
+          <span class="error-msg" id="subjectError" role="alert" aria-live="polite"></span>
+        </div>
+      </div>
+
+      <!-- Message -->
+      <div class="form-group">
+        <label for="message">Message <span aria-hidden="true">*</span></label>
+        <textarea
+          id="message"
+          name="message"
+          cols="30"
+          rows="8"
+          placeholder="Tell me about your project or idea..."
+          required
+          minlength="10"
+          aria-required="true"
+        ></textarea>
+        <span class="error-msg" id="messageError" role="alert" aria-live="polite"></span>
+      </div>
+
+      <button type="submit" class="btn btn-primary" id="submitBtn">
+        <i class='bx bx-send' aria-hidden="true"></i> Send Message
+      </button>
+
+      <!-- Success feedback -->
+      <p class="form-success" id="formSuccess" aria-live="polite" hidden>
+        ✅ Message sent! I'll get back to you soon.
+      </p>
+    </form>
+
+    <!-- Social links -->
+    <div class="contact-socials" aria-label="Social media contact links">
+      <a href="https://www.linkedin.com/in/macdonald-tanatswa-pazuwa" target="_blank" rel="noopener" aria-label="LinkedIn"><i class='bx bxl-linkedin' aria-hidden="true"></i></a>
+      <a href="https://github.com/Daminto" target="_blank" rel="noopener" aria-label="GitHub"><i class='bx bxl-github' aria-hidden="true"></i></a>
+      <a href="https://www.facebook.com/macdonald.tanatswa.pazuwa" target="_blank" rel="noopener" aria-label="Facebook"><i class='bx bxl-facebook' aria-hidden="true"></i></a>
+      <a href="https://www.instagram.com/tana_tsw.a" target="_blank" rel="noopener" aria-label="Instagram"><i class='bx bxl-instagram' aria-hidden="true"></i></a>
+    </div>
+  </section>
+
+  <!-- ========================
+       FOOTER
+  ========================= -->
+  <footer class="footer" role="contentinfo">
+    <p class="copyright">
+      &copy; <span id="year"></span> Macdonald Tanatswa Pazuwa &mdash; All Rights Reserved
+    </p>
+  </footer>
+
+  <!-- Typed.js for animated text -->
+  <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
+
+  <!-- Main JS -->
+  <script src="script.js"></script>
+</body>
+</html>
